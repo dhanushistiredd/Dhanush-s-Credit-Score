@@ -174,6 +174,19 @@ if borrower is female, +0.5 point
 
 - On top of this, the older the borrower was, the more adversely would their credit score be affected.
 
+- I plotted the age feature to understand the range of borrower ages :
+
+- ![Age_graph](https://github.com/user-attachments/assets/e443d37c-b11d-4d4e-b3b2-373eb262a5f0)
+
+
+- Here is the final credit scores generated :
+
+- ![fin_csv](https://github.com/user-attachments/assets/507f75a1-fd58-4c52-adaf-6949b1e1c6a4)
+
+
 - I now trained a RandomForestRegressor on this model, and created a frontend using streamlit to accept principal amount, age, education, loan taken date, due date and repaid date.
 - if loan isnt repaid, they check a box and the repaid date disables.
 - it then calculates either days in advance or days past due date and calculate credit score based on the model.
+
+- 
+![finfront](https://github.com/user-attachments/assets/61efcda9-a1d1-4b2d-a237-7c9399bee0dd)
