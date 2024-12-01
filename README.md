@@ -1,6 +1,6 @@
 # Dhanush-s-Credit-Score
 
-Hi. I decided to create my own credit score to include in my resume for my equifax interview.
+Hi. I decided to create my own credit score to include in my resume for my Equifax interview.
 
 I found this dataset off of kaggle that contained loan repayment data for a 500-odd observations. closest thing i could find, given my financial prowess.
 
