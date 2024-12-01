@@ -6,16 +6,16 @@ I found this dataset off of kaggle that contained loan repayment data for a 500-
 
 It has the following features :
 
-loan_ID - ID number for the loan
-loan_status - whether the loan has been paid off, went to collection and was then paidoff, or if its still in collection.
-Principal - the initial amount borrowed
-effective_date - the date the amount was borrowed
-due_date - the date the amount was due
-paid_off_time - the date and time the amount was repaid.
-past_due_days - number of days past the due date in collection_paidoff and collection cases
-age - age of the borrower
-education - education level of the borrower (High school or lower, Bechalor's (not Bachelor's, im not sure why), and no education)
-Gender - gender of the borrower (male or female)
+- loan_ID - ID number for the loan
+- loan_status - whether the loan has been paid off, went to collection and was then paidoff, or if its still in collection.
+- Principal - the initial amount borrowed
+- effective_date - the date the amount was borrowed
+- due_date - the date the amount was due
+- paid_off_time - the date and time the amount was repaid.
+- past_due_days - number of days past the due date in collection_paidoff and collection cases
+- age - age of the borrower
+- education - education level of the borrower (High school or lower, Bechalor's (not Bachelor's, im not sure why), and no education)
+- Gender - gender of the borrower (male or female)
 
 - Removed the loan_ID feature as it was redundant to my simple implementation.
 
