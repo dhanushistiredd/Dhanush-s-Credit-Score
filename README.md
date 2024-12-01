@@ -23,12 +23,12 @@ It has the following features :
 - The more in advance the loan was paidoff, the better your credit score got.
 - I plotted the days_in_advance values on a graph.
 
-- ![time_difference_graph](https://github.com/user-attachments/assets/e6096a49-53aa-4ef7-81f4-031354f113e1)
+  ![time_difference_graph](https://github.com/user-attachments/assets/e6096a49-53aa-4ef7-81f4-031354f113e1)
 
 - I also plotted the days past due dates for collection and collection_paidoff cases :
 
-- ![collection_paidoff](https://github.com/user-attachments/assets/08cf24af-161e-43ed-9bb7-e9f509efd458)
-- ![Collections_graph](https://github.com/user-attachments/assets/de0c1641-d987-4231-84e8-cb8c1a793162)
+  ![collection_paidoff](https://github.com/user-attachments/assets/08cf24af-161e-43ed-9bb7-e9f509efd458)
+  ![Collections_graph](https://github.com/user-attachments/assets/de0c1641-d987-4231-84e8-cb8c1a793162)
 
 - I one-hot coded the education level, 
     No education - affected score less
@@ -176,17 +176,17 @@ if borrower is female, +0.5 point
 
 - I plotted the age feature to understand the range of borrower ages :
 
-- ![Age_graph](https://github.com/user-attachments/assets/e443d37c-b11d-4d4e-b3b2-373eb262a5f0)
+  ![Age_graph](https://github.com/user-attachments/assets/e443d37c-b11d-4d4e-b3b2-373eb262a5f0)
 
 
 - Here is the final credit scores generated :
 
-- ![fin_csv](https://github.com/user-attachments/assets/507f75a1-fd58-4c52-adaf-6949b1e1c6a4)
+  ![fin_csv](https://github.com/user-attachments/assets/507f75a1-fd58-4c52-adaf-6949b1e1c6a4)
 
 
 - I now trained a RandomForestRegressor on this model, and created a frontend using streamlit to accept principal amount, age, education, loan taken date, due date and repaid date.
 - if loan isnt repaid, they check a box and the repaid date disables.
 - it then calculates either days in advance or days past due date and calculate credit score based on the model.
 
-- 
+  
 ![finfront](https://github.com/user-attachments/assets/61efcda9-a1d1-4b2d-a237-7c9399bee0dd)
