@@ -41,7 +41,7 @@ It has the following features :
 
 - If the principal ranges from 0-500,
 
-for "PAIDOFF" entries, 
+- for "PAIDOFF" entries, 
 
 If education is, 
 High school or below, +1 point
@@ -56,7 +56,7 @@ if amount was paidoff 21+ days in advance, +6 points
 if borrower is female, +1 point
 
 
-for "COLLECTION_PAIDOFF" entries, 
+- for "COLLECTION_PAIDOFF" entries, 
 
 If education is, 
 High school or below, +0.5 point
@@ -69,7 +69,7 @@ if amount was paidoff 41+ days later, -6 points
 
 if borrower is female, +1 point
 
-for "COLLECTION" entries, 
+- for "COLLECTION" entries, 
 
 If education is, 
 High school or below, +0 point
@@ -86,7 +86,7 @@ if borrower is female, +0.5 point
 
 If the principal ranges from 501-999,
 
-for "PAIDOFF" entries, 
+- for "PAIDOFF" entries, 
 
 If education is, 
 High school or below, +1.5 point
@@ -101,7 +101,7 @@ if amount was paidoff 21+ days in advance, +7 points
 if borrower is female, +2 points
 
 
-for "COLLECTION_PAIDOFF" entries, 
+- for "COLLECTION_PAIDOFF" entries, 
 
 If education is, 
 High school or below, +0.5 point
@@ -114,7 +114,7 @@ if amount was paidoff 41+ days later, -8 points
 
 if borrower is female, +1 point
 
-for "COLLECTION" entries, 
+- for "COLLECTION" entries, 
 
 If education is, 
 High school or below, +0 point
@@ -130,7 +130,7 @@ if borrower is female, +0.5 point
 
 If the principal is 1000,
 
-for "PAIDOFF" entries, 
+- for "PAIDOFF" entries, 
 
 If education is, 
 High school or below, +2 point
@@ -145,7 +145,7 @@ if amount was paidoff 21+ days in advance, +8 points
 if borrower is female, +2.5 points
 
 
-for "COLLECTION_PAIDOFF" entries, 
+- for "COLLECTION_PAIDOFF" entries, 
 
 If education is, 
 High school or below, +0 point
@@ -158,7 +158,7 @@ if amount was paidoff 41+ days later, -9 points
 
 if borrower is female, +0.5 point
 
-for "COLLECTION" entries, 
+- for "COLLECTION" entries, 
 
 If education is, 
 High school or below, +0 point
