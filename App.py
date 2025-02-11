@@ -31,8 +31,6 @@ def calculate_credit_score(age, education, principal, days_past_due, days_in_adv
     score = model.predict(data)
     return score[0]
 
-
-
 st.title("Credit Score Prediction")
 
 
